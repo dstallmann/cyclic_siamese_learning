@@ -66,7 +66,6 @@ class CustomDataset(Dataset):
 		return self.data_len
 
 prefix = os.getcwd().replace("\\", "/")[:-4]  # gets the current path up to /vae and removes the /vae to get to the data directory
-# "C:/Users/Dominik/Documents/PycharmProjects/celltransfer"#"/home/dstallmann/PycharmProjects"#"C:/Users/Philip/Documents/Doktorstelle/celltransfer" #"/home/philipkenneweg/Documents/celltransfer"#<INSERT PROJECT PATH HERE>
 print(prefix)
 
 if dynamic_data == True:
